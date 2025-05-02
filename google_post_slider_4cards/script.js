@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
       posts.forEach(post => {
         const card = document.createElement("div");
         card.className = "post-card";
-        card.innerHTML = \`
-          <a href="\${post.link}" target="_blank">
-            <img src="\${post.image}" alt="投稿画像">
-            <div class="post-text">\${post.text}</div>
+        card.innerHTML = `
+          <a href="${post.link}" target="_blank">
+            <img src="${post.image}" alt="投稿画像">
+            <div class="post-text">${post.text}</div>
           </a>
-        \`;
+        `;
         slider.appendChild(card);
       });
 
