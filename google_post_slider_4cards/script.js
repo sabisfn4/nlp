@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("posts.json")
+  fetch("google_post_slider_4cards/posts.json")
     .then(response => response.json())
     .then(posts => {
       const slider = document.getElementById("post-slider");
