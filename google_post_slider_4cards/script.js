@@ -28,6 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       setInterval(() => {
         slider.scrollBy({ left: 260, behavior: "smooth" });
-      }, 5000);
+      }, 12000);
     });
 });
