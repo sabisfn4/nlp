@@ -26,8 +26,5 @@ document.addEventListener("DOMContentLoaded", function () {
         slider.scrollBy({ left: 260, behavior: "smooth" });
       });
 
-      setInterval(() => {
-        slider.scrollBy({ left: 260, behavior: "smooth" });
-      }, 12000);
     });
 });
